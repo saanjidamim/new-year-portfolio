@@ -27,11 +27,6 @@
     url('../images/Banner\ Image.png');
     
     
-   
-    /* background: linear-gradient(
-        rgb(16, 16, 16)-19.5%,
-        rgb(16,16,16,0)0%
-    ); */
 }
 .banner-text{
    text-align: center;
@@ -48,6 +43,22 @@
     font-size: 72px;
     font-weight: black;
 }
+/* new -year- banner- style */
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.new-year-content{
+    text-align: center;
+    height: 800px;
+    margin-left: 350px;
+     margin-right: 350px;
+     margin-top: 120px;
+     margin-bottom: 120px;
+    
+
+}
 .new-year-offer{
     color:#FF0000 ;
     font-size: 88px;
@@ -56,17 +67,157 @@
 .new-year-caption{
     color: #FF0000;
     font-size: 24px;
-    font-weight:bold ;
+    font-weight:700 ;
 
 }
-/* new -year- banner- style */
-.inter-normal{
-  font-family: "Inter", sans-serif;
+.new-year-title{
+  color: #070211;
+    font-size: 48px;
+    font-weight:bold ;  
+}
+/* Midnight party style */
+
+  .merriweather-normal {
+  font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
 
+.hero{
+    background-image: url(../images/Vectorrr.png);
+    height: 600px;
+    width: 1300px;
+    margin-left: 300px;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: 
+    linear-gradient(
+      to right,
+      rgba(7, 2, 17, 0.8) 0%,
+      rgba(7, 2, 17, 0.4) 50%,
+      rgba(7, 2, 17, 0.0) 100%
+    ),
+    url('../images/Vectorrr.png');
+  
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    
+
+}
+.midnight-content{
+    padding: 100px 600px 200px 126px;
+}
+.midnight-title{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: black;
+    
+    
+}
+.midnight-description{
+ color:rgba(255, 255, 255, 0.8) ;
+    font-size: 18px;
+    font-weight:Regular;
+    
+}
+.btn{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+} 
+ /* time table */
+ .time-table{
+    text-align: center;
+    padding: 100px 285px;
+
+ }
+ .timing{
+    background: linear-gradient(to bottom, rgba(255,0,0,10%), rgba(255,0,0,0%));
+    width: 1320px;
+    height: 482px;
+     border-radius: 16px;
+      margin-left: 300px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+ }
+
+    .first-text{
+       color:#FF0000;
+       font-size: 32px;
+       font-weight:700; 
+
+    }
+    .btn-style{
+        color: #FFFFFF;
+        background-color: #FF0000;
+        padding: 16px 32px;
+        border-radius: 8px;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+/* comming soon offer */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+ .sub-container{
+        /* align-items: center; */
+        /* margin: 120px 300px; */
+        width: 400px;
+        height: 262px;
+  
+    }
+.comming-soon-container{
+  display: flex;
+  justify-content:space-between;
+  width: 1320px;
+  height: 464px;
+  margin: 120px 300px;
+
+  
+  
+}
+.coomming-soon-caption{
+    color:#FF0000;
+    font-size: 24px;
+    font-weight: 300;
+}
+.coomming-soon-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: black;
+}
+.coomming-soon-description{
+    color:#070211 ;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.comming-soon-img{
+   width: 463px;
+    height: 477px;
 
 
+}
+.year{
+    color: #FF0000;
+    font-size:48px ;
+    font-weight:bold ;
+}
+.side-img{
+    height: 140px;
+    width: 140px;
+}
+.last-contain{
+    width: 276px;
+    height: 175px;
+}
