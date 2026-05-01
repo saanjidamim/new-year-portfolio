@@ -202,7 +202,7 @@
     opacity: 0.6;
     font-size: 20px;
 }
-.comming-soon-img{
+.coomming-soon-img{
    width: 463px;
     height: 477px;
 
@@ -220,4 +220,62 @@
 .last-contain{
     width: 276px;
     height: 175px;
+}
+/* holiday style */
+.Holidays-container{
+   text-align: center;
+   align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    /* margin-right: 30%; */
+    width: 1000px; 
+     height: 360px;
+     /* margin-left: 500px;
+     /* padding: 500px; */
+     /* margin-right: 500px; */ */
+     
+}
+
+.img{
+     width: 1320px;
+    height: 662px; 
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    
+    background-position: bottom;
+    margin-left: 300px;
+    margin-bottom: 120px;
+}
+.charkuna-img{
+    width: 674px;
+    height: 557px;
+}
+.charkuna-img{
+    
+     width: 30%; 
+    height: 400px;
+    margin-bottom: 200px; 
+    
+}
+.Holidays-caption {
+color: #070211;
+font-size: 24px;
+
+}
+.Holidays-title{
+    color: #070211;
+    font-size: 72px;
+    font-weight: black;
+}
+.clr-style{
+    color: #FF0000;
+}
+.Holidays-description{
+    color:#070211 ;
+    opacity: 0.6;
+    font-size: 20px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
 }
