@@ -279,3 +279,150 @@ font-size: 24px;
     /* margin-left: 300px;
     margin-right: 300px; */
 }
+/* gift section */
+.gift-section{
+    width: 1320px;
+    height:1120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    
+}
+.gift-caption{
+ color:#FF0000;
+    font-size: 24px;
+    font-weight: 300;   
+}
+.gift-title{
+  color: #070211;
+    font-size: 48px;
+    font-weight: black;   
+
+}
+.gift-description{
+   color:#070211 ;
+    opacity: 0.6;
+    font-size: 20px;  
+    width: 896px;
+    height: 64px;
+}
+/* subscribe section */
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+ .subscribe-section-container{
+    width:1320px ;
+    height:616px ;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0%),rgba(255 ,0, 0, 10%));
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 300px;
+
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    
+
+} 
+
+
+.subscribe-section-title{
+  color:#070211;
+    font-size:48px;
+    font-weight: black;  
+}
+.subscribe-section-description{
+  color:#070211 ;
+    opacity: 0.6;
+    font-size: 20px; 
+    margin-left: 212px;
+    margin-right: 212px;
+    /* height: 64px; */
+    align-items: center;
+}
+.subscribe-section-container input{
+    width: 490px;
+    height: 72px;
+    border-radius: 52px 0px 0px 52px;
+    border: none;
+    font-size: 18px;
+    
+    
+}
+.subscribe-section-container button{
+    width: 210px;
+    height: 72px;
+    border-radius:0px 52px 52px 0px;
+    font-size: 20px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+border: none;
+}
+.subscribe-box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-item{
+/* align-items: center;
+text-align: center; */
+padding-left: 30px;
+
+}
+footer{
+ width:auto ;
+    height:609px ;
+     background-color:pink ;
+     
+}
+.footer-style{
+    display: flex;
+    justify-content: space-around;
+    /* width: 600px;
+    height: 80px;
+    align-items: center;
+    */
+   
+}
+.footer-description-1{
+    font-size: 24px;
+    color: #FFFFFF;
+     width: 375px;
+    height: 80px;
+     margin-top: 120px;
+   
+    
+}
+.footer-description-2{
+   font-size: 24px;
+   color: #FFFFFF;
+   width: 251px;
+    height: 80px;
+  margin-top: 120px;
+   
+}
+.footer-style-final{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-description-3{
+   font-size: 24px; 
+   color: #FFFFFF;
+}
+.icon-style{
+    
+    text-align: center;
+}
+hr{
+    margin-left: 15%;
+    margin-right: 20%;
+    font-size: 24px;
+    background: linear-gradient(45 deg,(255,255,15%) );
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
